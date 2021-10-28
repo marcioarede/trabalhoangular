@@ -1,0 +1,16 @@
+<app-topo></app-topo>
+<div>
+  <h1  style="text-align:center">
+     {{ title }} 1.5
+  </h1>
+</div>
+<br>
+  <button (click)="PgInicial()" type="button" class="btn btn-light"> Home</button>
+  <button (click)="Produtos()" type="button" class="btn btn-light">Produtos</button>
+  <button (click)="Listar()" type="button" class="btn btn-light">Clientes cadastrados </button>
+  <button (click)="Novo()" type="button" class="btn btn-light" >Cadastrar Cliente</button>
+<hr>
+
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+

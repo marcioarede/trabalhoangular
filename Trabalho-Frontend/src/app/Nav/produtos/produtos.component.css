@@ -1,0 +1,54 @@
+.banner-image{ padding-top: 75px;
+  padding-bottom: 50px;
+  text-align: center;
+  *color: #f8f8f8;
+  background-size: cover;
+}
+
+
+
+.thumbnail img{
+  max-height: 160px;
+  border-radius: 15px;
+
+}
+.thumbnail img:hover{
+  max-height: 165px;
+  transition: 0.3s;
+
+}
+main {
+  min-height: 100vh;
+
+
+}
+
+
+h2{font-weight: bolder;
+}
+.jumbotron_style{margin-top: 70px;
+}
+.table_style{margin-top: 70px;
+}
+h4{font-weight: bolder;
+}
+.container_style{margin-top: 80px;
+
+}
+
+.add-to-cart {
+  margin: 0;
+  background-color: black;
+  color: #ffffff;
+  border: 1px solid cyan;
+  border-radius: 4px;
+  outline: none;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+.padding-20 {
+  padding: 20px;
+}
+
